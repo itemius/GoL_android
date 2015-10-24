@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="horizontal"
+    >
+
+    <info.itemius.gol.views.SquareGridView
+        android:id="@+id/gridview"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="40dp"
+        android:columnWidth="90dp"
+        android:numColumns="20"
+        android:layout_gravity="center_vertical"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:stretchMode="spacingWidth"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:textSize="10sp"
+        android:text="@string/button_start"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+</LinearLayout>
