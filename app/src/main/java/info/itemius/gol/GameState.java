@@ -2,9 +2,6 @@ package info.itemius.gol;
 
 import info.itemius.gol.logic.SimpleAlgorithm;
 
-/**
- * Created by ibad on 15/09/15.
- */
 public class GameState {
 
     public static boolean started = false;
