@@ -4,9 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.GridView;
 
-/**
- * Created by ibad on 15/09/15.
- */
+
 public class SquareGridView extends GridView {
 
 

@@ -5,9 +5,7 @@ import android.view.View;
 
 import info.itemius.gol.GameState;
 
-/**
- * Created by ibad on 21/09/15.
- */
+
 public class GameView extends View {
 
 

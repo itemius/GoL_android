@@ -2,9 +2,7 @@ package info.itemius.gol.logic;
 
 import android.util.Log;
 
-/**
- * Created by ibad on 15/09/15.
- */
+
 public class SimpleAlgorithm {
 
     public static boolean[] getNextState(boolean[] cells){
